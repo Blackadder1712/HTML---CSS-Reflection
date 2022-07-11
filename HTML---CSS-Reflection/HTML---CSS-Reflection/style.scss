@@ -1,0 +1,36 @@
+/*----Layout Conntainers---*/
+.top-inner {
+    padding: 20px;
+    
+}
+
+.top-container {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.homepage-main {
+    
+}
+
+a {
+    background: transparent;
+}
+
+#main-content  {
+
+}
+
+
+
+/*Media Queries*/
+
+@media (min-width:769px) {
+    .top-container {
+     width: 70%;
+     max-width: 1000px;
+     margin: 0 auto;
+
+    }
+}
+
