@@ -1,16 +1,5 @@
 /*----Layout Conntainers---*/
-.top-inner {
-  padding: 20px;
-}
 
-.top-container {
-  padding-left: 1em;
-  padding-right: 1em;
-}
-
-a {
-  background: transparent;
-}
 
 /*Media Queries*/
 @media (min-width: 769px) {
