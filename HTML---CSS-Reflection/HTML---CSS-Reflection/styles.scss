@@ -1,4 +1,7 @@
 /*----Layout Conntainers---*/
+* {
+ box-sizing: border-box;
+}
 .top-inner {
     padding: 20px;
     
@@ -27,5 +30,7 @@ a {
      margin: 0 auto;
 
     }
-}
 
+
+
+}

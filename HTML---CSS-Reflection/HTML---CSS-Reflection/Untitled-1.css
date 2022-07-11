@@ -1,15 +1,13 @@
 /*----Layout Conntainers---*/
-.top-inner {
+.main-header {
   padding: 20px;
 }
 
 .top-container {
-  padding-left: 1em;
-  padding-right: 1em;
-}
-
-a {
-  background: transparent;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /*Media Queries*/
