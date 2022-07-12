@@ -2,15 +2,21 @@
     box-sizing: border-box;
   }
   
-  .main-nav{
+  .nav{
     padding: 20px;
     background-color:#333645;
    }
    
-  .main-nav li {
+  .nav-item {
     font-family: Poppins,sans-serif;
     text-decoration: none;
-    color: white;
+    color:white;
+  }
+
+  .nav-link {
+    font-family: Poppins,sans-serif;
+    text-decoration: none;
+    color:white;
   }
   
   .top-inner {
