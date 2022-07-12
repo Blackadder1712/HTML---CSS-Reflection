@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .main-nav{
+    padding: 20px;
+    background-color:#333645;
+   }
+   
+  .main-nav li {
+    font-family: Poppins,sans-serif;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .top-inner {
+    padding: 20px;
+  }
+  
+  .top-container {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  
+  a {
+    background: transparent;
+  }
+  
+  /*Media Queries*/
+  @media (min-width: 769px) {
+    .top-container {
+      width: 70%;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+  }/*# sourceMappingURL=style.css.map */
