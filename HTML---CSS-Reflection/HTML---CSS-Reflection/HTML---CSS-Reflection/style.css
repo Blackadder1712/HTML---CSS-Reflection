@@ -5,18 +5,19 @@
   .nav{
     padding: 20px;
     background-color:#333645;
+   
    }
    
+  
   .nav-item {
-    font-family: Poppins,sans-serif;
-    text-decoration: none;
-    color:white;
+    display: inline-block;
   }
 
   .nav-link {
     font-family: Poppins,sans-serif;
     text-decoration: none;
     color:white;
+   
   }
   
   .top-inner {
