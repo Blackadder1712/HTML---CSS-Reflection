@@ -1,16 +1,35 @@
-/*----Layout Conntainers---*/
-@import 'partials/header', 'partials/body', 'partials/main';
-
-
-
-/*Media Queries*/
-
-@media (min-width:769px) {
-    .top-container {
-     width: 70%;
-     max-width: 1000px;
-     margin: 0 auto;
-
-    }
-}
-
+* {
+    box-sizing: border-box;
+   }
+   .top-inner {
+       padding: 20px;
+       
+   }
+   
+   .top-container {
+       padding-left: 1em;
+       padding-right: 1em;
+   }
+   
+   .homepage-main {
+       
+   }
+   
+   a {
+       background: transparent;
+   }
+   
+   
+   /*Media Queries*/
+   
+   @media (min-width:769px) {
+       .top-container {
+        width: 70%;
+        max-width: 1000px;
+        margin: 0 auto;
+   
+       }
+   
+   
+   
+   }
