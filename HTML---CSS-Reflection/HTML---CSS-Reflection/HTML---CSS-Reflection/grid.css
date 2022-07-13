@@ -2,6 +2,26 @@
 .buttons {
   max-width: 800px;
   display: grid;
+  padding: 20px;
   grid-template-columns: 500px 200px 200px;
+  grid-column-gap: 10px;
 }
 
+.nav {
+    background-color:#333645;
+    max-width: auto;
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10%;
+    grid-column-gap: 30px;
+}
+
+  /*Media Queries*/
+  @media (min-width: 769px) {
+    .container {
+      width: 70;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+}
