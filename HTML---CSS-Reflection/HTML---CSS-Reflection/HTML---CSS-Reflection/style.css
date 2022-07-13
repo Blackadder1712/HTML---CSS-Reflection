@@ -1,14 +1,12 @@
 * {
     box-sizing: border-box;
   }
-  .container {
-
-
-  }
+  
   .nav{
   
     padding: 20px;
     background-color:#333645;
+    margin: auto;
    
    }
    
@@ -31,14 +29,7 @@
 
   }
   
-  .top-inner {
-    padding: 20px;
-  }
   
-  .top-container {
-    padding-left: 1em;
-    padding-right: 1em;
-  }
   
   a {
     background: transparent;
