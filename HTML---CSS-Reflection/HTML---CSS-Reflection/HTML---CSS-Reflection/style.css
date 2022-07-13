@@ -1,28 +1,25 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  .nav{
-  
-    padding: 20px;
-    background-color:#333645;
-    margin: auto;
-   
-   }
-   
-  
-  .nav-item {
-    display: inline-block;
-    padding: 3em;
-  }
 
-  .nav-link {
-    display: inline-block;
-    font-family: Poppins,sans-serif;
-    text-decoration: none;
-    color:white;
-   
-  }
+ .nav{
+  
+  padding: 20px;
+  background-color:#333645;
+  margin: auto;
+ 
+ }
+ 
+
+.nav-item {
+  display: inline-block;
+  padding: 3em;
+}
+
+.nav-link {
+  display: inline-block;
+  font-family: Poppins,sans-serif;
+  text-decoration: none;
+  color:white;
+ 
+}
 
   .logo {
   margin-left: 60px;
