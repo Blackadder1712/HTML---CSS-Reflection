@@ -2,16 +2,16 @@
   
 }
 
-.button-contact {
+.button-contact {}
 
-}
+  /*----layout containers----*/
+
+
 .container {
-   line-height: 1.6;
-   color: white;
-   width: 100%;
-   margin: auto;
-
+ text-align: center;
 }
+
+
 
 #buttons img {
   width: 100%;
@@ -47,10 +47,5 @@
   }
   
   /*Media Queries*/
-  @media (min-width: 769px) {
-    .container {
-      width: 100%;
-      max-width: 1000px;
-      margin: 0 auto;
-    }
-  }/*# sourceMappingURL=style.css.map */
+  
+  /*# sourceMappingURL=style.css.map */
