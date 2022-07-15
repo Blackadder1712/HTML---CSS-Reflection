@@ -41,9 +41,59 @@ h1 {
 
 .buttons .form-control {
   background-color: gray;
+  width: 100%;
+  margin-right: 20px ;
+
+  
   
 }
 
+.main-buttons
+ {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight:lighter;
+ 
+}
+
+.btn-primary {
+  
+  display: block;
+  border-radius: 10%;
+  width: 96%;
+  max-height: auto;
+  margin: 2%;
+  border-color: gray;
+  background-color: white;
+  
+  
+ 
+}
+
+.btn-primary-2 {
+  
+  display: block;
+  border-radius: 10%;
+  width: 96%;
+  max-height: auto;
+  margin: 2%;
+  border-color: gray;
+  background-color: white;
+}
+  .btn-primary-3 {
+  
+    display: block;
+    border-radius: 10%;
+    width: 96%;
+    max-height: auto;
+    margin: 2%;
+    border-color: gray;
+    background-color: white;
+  
+ 
+}
+ .btn-primary .text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
   
   /*Media Queries*/
 /*Media Queries*/
