@@ -4,9 +4,10 @@
 .buttons {
   max-width: auto;
   display: grid;
-  padding: 20px;
+  padding-top: 30px;
+  padding-left: 50px;
   grid-template-columns: 500px 200px 200px;
-  grid-column-gap: 10px;
+  grid-column-gap: 5px;
   margin: 0 auto;
 }
 
@@ -23,6 +24,14 @@
     grid-column-gap: 30px;
     margin: 0;
 }
-
+.buttons {
+  max-width: auto;
+  display: grid;
+  padding-top: 30px;
+  padding-left: 50px;
+  grid-template-columns: 500px auto auto auto;
+  grid-column-gap: 10px;
+  margin: 0 auto;
+}
     
 }
