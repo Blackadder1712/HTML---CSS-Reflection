@@ -28,6 +28,10 @@ h1 {
   padding-left: 30px;
 }
 
+.buttons .form-control {
+  background-color: gray;
+}
+
 /*Media Queries*/
 /*Media Queries*/
 @media (min-width: 769px) {
