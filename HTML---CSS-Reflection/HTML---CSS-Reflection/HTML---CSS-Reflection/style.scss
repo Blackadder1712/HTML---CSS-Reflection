@@ -186,8 +186,16 @@ caption {
   background-color: $mains-button-background-color;
   }
 
-
-
+  .small-logos {
+    mmax-width: auto;
+    display: grid;
+    padding: 20px 20px;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-column-gap: 30px;
+    margin: 0;
+  
+  
+  }
   
   
  
@@ -195,14 +203,11 @@ caption {
  .btn-primary .text {
   font-family: $main-font-family;
 
-.welcome {
-  color: white;
-  background-color: $main-color ;
-}
 
-.welcome {
-background-color: #333645;
 
+.content {
+  background-color:$main-color;
+ 
 }
   
   /*Media Queries*/

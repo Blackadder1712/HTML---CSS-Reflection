@@ -149,16 +149,21 @@ caption {
   background-color: white;
 }
 
+.small-logos {
+  mmax-width: auto;
+  display: grid;
+  padding: 20px 20px;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  grid-column-gap: 30px;
+  margin: 0;
+}
+
 .btn-primary .text {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   /*Media Queries*/
   /*Media Queries*/
 }
-.btn-primary .text .welcome {
-  color: white;
-  background-color: #333645;
-}
-.btn-primary .text .welcome {
+.btn-primary .text .content {
   background-color: #333645;
 }
 @media only screen and (min-width: 769px) {
