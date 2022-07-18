@@ -33,5 +33,15 @@
   grid-column-gap: 10px;
   margin: 0 auto;
 }
-    
+
+.small-logos {
+  max-width: auto;
+  display: grid;
+  padding-top: 30px;
+  padding-left: 50px;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  grid-column-gap: 10px;
+  margin: 0 auto;
+
+}  
 }
