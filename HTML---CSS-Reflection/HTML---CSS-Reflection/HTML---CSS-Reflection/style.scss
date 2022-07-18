@@ -6,7 +6,7 @@
 }
 
 /*variables*/
-
+$main-color: #333645;
 $main-buttons-radius: 10%;
 $main-buttons-display: block;
 $main-buttons-width: 96%;
@@ -17,6 +17,7 @@ $mains-button-background-color: white;
 
 $main-font-family: Verdana, Geneva, Tahoma, sans-serif;
 $main-font-weight: lighter;
+$main-font-color: white;
 
 
 .container {
@@ -52,7 +53,7 @@ $main-font-weight: lighter;
   display: inline-block;
   font-family: Poppins,sans-serif;
   text-decoration: none;
-  color:white;
+  color: $main-font-color;
   width: auto;
   margin: 0 auto;
 }
@@ -68,16 +69,34 @@ h1 {
  padding-left: 30px;
 } 
 
+.adverts {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
 .input-group .form-control {
   background-color: rgb(192, 188, 188);
   width: 75%;
   padding: 20px ;
   margin: 20px;
+}
 
+.image { 
+  position: relative; 
+  width: 20%
+}
 
-
-  
-  
+caption { 
+  position: absolute; 
+  top: 400px; 
+  left: 10px; 
+  width: 100%; 
+  font-family:$main-font-family;
+  font-size: 80px;
+  color: $main-font-color;
+ 
 }
 
 .main-buttons
@@ -175,13 +194,27 @@ h1 {
 
  .btn-primary .text {
   font-family: $main-font-family;
+
+.welcome {
+  color: white;
+  background-color: $main-color ;
+}
+
+.welcome {
+background-color: #333645;
+
+}
   
   /*Media Queries*/
 /*Media Queries*/
 
-@media (min-width: 769px) {
+@media only screen and(min-width: 769px) {
+
+  .search-bar .input-group-mb-3 .form-control{
+    display:none;
+  }
   .nav {
-    background-color:#333645;
+    background-color:$main-color;
     max-width: auto;
     display: grid;
     padding: 20px 20px;
@@ -206,10 +239,21 @@ h1 {
   margin: 0 auto;
 }
 
+caption { 
+  position: absolute; 
+  top: 400px; 
+  left: 200px; 
+  width: 100%; 
+  font-family:$main-font-family;
+  font-size: 100px;
+  color: $main-font-color;
+ 
+}
+
 }
 .small-logos {
   max-width: auto;
-  display: grid;
+  display: column;
   padding-top: 30px;
   padding-left: 50px;
   grid-template-columns: auto auto auto auto auto auto auto auto;
