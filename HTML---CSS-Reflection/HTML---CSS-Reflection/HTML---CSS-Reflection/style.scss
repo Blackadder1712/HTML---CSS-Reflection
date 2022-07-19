@@ -79,8 +79,8 @@ h1 {
 .input-group .form-control {
   background-color: rgb(192, 188, 188);
   width: 75%;
-  padding: 20px ;
-  margin: 20px;
+  padding: 50px ;
+  margin: 30px;
 }
 
 .image { 
@@ -187,7 +187,7 @@ caption {
   }
 
   .small-logos {
-    mmax-width: auto;
+    max-width: auto;
     display: grid;
     padding: 20px 20px;
     grid-template-columns: auto auto auto auto auto auto auto;
@@ -202,22 +202,45 @@ caption {
 
  .btn-primary .text {
   font-family: $main-font-family;
+ }
 
 
 
-.content {
+.welcome h1 {
+  margin-left: 50px;
+
+}
+.welcome   {
   background-color:$main-color;
+  max-width: auto;
+  display: grid;
+  color:$main-font-color;
+  padding-right: 20px;
+    
  
 }
-  
+.clients h1 {
+  margin-left: 50px;
+
+}
+.clients h3 {
+font-style: italic;
+
+}
+
+.clients .fa-solid {
+  color:yellow;
+  font-size: 50px;
+  padding-right: 20px;
+}
+
+
   /*Media Queries*/
 /*Media Queries*/
 
 @media only screen and(min-width: 769px) {
 
-  .search-bar .input-group-mb-3 .form-control{
-    display:none;
-  }
+ 
   .nav {
     background-color:$main-color;
     max-width: auto;
@@ -273,6 +296,7 @@ caption {
   padding: 20px ;
   margin: 20px;
 }
-}
+
+
   
   /*# sourceMappingURL=style.css.map */
