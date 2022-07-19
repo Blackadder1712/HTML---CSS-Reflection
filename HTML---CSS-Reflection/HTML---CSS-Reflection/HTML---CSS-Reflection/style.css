@@ -89,76 +89,84 @@ caption {
 .main-buttons {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: lighter;
+  display: grid;
 }
 
 .btn-primary {
   display: block;
   border-radius: 10%;
   width: 96%;
-  max-height: auto;
+  max-height: 600px;
   margin: 2%;
-  border-color: rgb(148, 146, 146);
+  border-color: rgb(180, 177, 177);
   background-color: white;
+  border-width: 1px;
 }
 
 .btn-primary-2 {
   display: block;
   border-radius: 10%;
   width: 96%;
-  max-height: auto;
+  max-height: 600px;
   margin: 2%;
-  border-color: rgb(148, 146, 146);
+  border-color: rgb(180, 177, 177);
   background-color: white;
+  border-width: 1px;
 }
 
 .btn-primary-3 {
   display: block;
   border-radius: 10%;
   width: 96%;
-  max-height: auto;
+  max-height: 600px;
   margin: 2%;
-  border-color: rgb(148, 146, 146);
+  border-color: rgb(180, 177, 177);
   background-color: white;
+  border-width: 1px;
 }
 
 .btn-primary-4 {
   display: block;
   border-radius: 10%;
   width: 96%;
-  max-height: auto;
+  max-height: 600px;
   margin: 2%;
-  border-color: rgb(148, 146, 146);
+  border-color: rgb(180, 177, 177);
   background-color: white;
+  border-width: 1px;
 }
 
 .btn-primary-5 {
   display: block;
   border-radius: 10%;
   width: 96%;
-  max-height: auto;
+  max-height: 600px;
   margin: 2%;
-  border-color: rgb(148, 146, 146);
+  border-color: rgb(180, 177, 177);
   background-color: white;
+  border-width: 1px;
 }
 
 .btn-primary-6 {
   display: block;
   border-radius: 10%;
   width: 96%;
-  max-height: auto;
+  max-height: 600px;
   margin: 2%;
-  border-color: rgb(148, 146, 146);
+  border-color: rgb(180, 177, 177);
   background-color: white;
+  border-width: 1px;
 }
 
 .btn-primary-7 {
   display: block;
   border-radius: 10%;
   width: 96%;
-  max-height: auto;
+  max-height: 600px;
   margin: 2%;
-  border-color: rgb(148, 146, 146);
+  border-color: rgb(180, 177, 177);
   background-color: white;
+  border-width: 1px;
 }
 
 .small-logos {
@@ -186,7 +194,7 @@ caption {
   display: block;
   border-radius: 10%;
   width: 96%;
-  max-height: auto;
+  max-height: 600px;
   margin: 2%;
 }
 

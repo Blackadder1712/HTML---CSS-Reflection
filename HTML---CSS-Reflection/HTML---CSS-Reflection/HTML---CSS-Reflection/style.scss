@@ -10,10 +10,12 @@ $main-color: #333645;
 $main-buttons-radius: 10%;
 $main-buttons-display: block;
 $main-buttons-width: 96%;
-$main-buttons-max-height: auto;
+$main-buttons-max-height: 600px;
 $main-buttons-margin: 2%;
-$main-buttons-border-color: rgb(148, 146, 146);
+$main-buttons-border-color: rgb(180, 177, 177);
 $mains-button-background-color: white;
+$mains-button-border-width: 1px;
+
 
 $main-font-family: Verdana, Geneva, Tahoma, sans-serif;
 $main-font-weight: lighter;
@@ -124,8 +126,10 @@ caption {
 
 .main-buttons
  {
+  
   font-family: $main-font-family;
   font-weight: $main-font-weight;
+  display: grid;
  
 }
 
@@ -138,6 +142,7 @@ caption {
   margin: $main-buttons-margin;
   border-color: $main-buttons-border-color;
   background-color: $mains-button-background-color;
+  border-width: $mains-button-border-width;
   
   
  
@@ -152,7 +157,7 @@ caption {
   margin: $main-buttons-margin;
   border-color: $main-buttons-border-color;
   background-color: $mains-button-background-color;
-  
+  border-width: $mains-button-border-width;
 }
   .btn-primary-3 {
   
@@ -163,6 +168,7 @@ caption {
   margin: $main-buttons-margin;
   border-color: $main-buttons-border-color;
   background-color: $mains-button-background-color;
+  border-width: $mains-button-border-width;
   }
 
   .btn-primary-4 {
@@ -174,6 +180,7 @@ caption {
   margin: $main-buttons-margin;
   border-color: $main-buttons-border-color;
   background-color: $mains-button-background-color;
+  border-width: $mains-button-border-width;
   }
 
   .btn-primary-5 {
@@ -185,6 +192,7 @@ caption {
   margin: $main-buttons-margin;
   border-color: $main-buttons-border-color;
   background-color: $mains-button-background-color;
+  border-width: $mains-button-border-width;
   }
 
   .btn-primary-6 {
@@ -196,6 +204,7 @@ caption {
   margin: $main-buttons-margin;
   border-color: $main-buttons-border-color;
   background-color: $mains-button-background-color;
+  border-width: $mains-button-border-width;
   }
 
   .btn-primary-7 {
@@ -207,6 +216,7 @@ caption {
   margin: $main-buttons-margin;
   border-color: $main-buttons-border-color;
   background-color: $mains-button-background-color;
+  border-width: $mains-button-border-width;
   }
 
   .small-logos {
@@ -293,7 +303,12 @@ font-style: italic;
 
 @media only screen and(min-width: 769px) {
 
- 
+ #netmatters {
+    
+ }
+
+
+
   .nav {
     background-color:$main-color;
     max-width: auto;
