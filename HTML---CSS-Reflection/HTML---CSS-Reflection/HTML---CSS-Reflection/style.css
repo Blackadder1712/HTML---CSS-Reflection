@@ -5,19 +5,37 @@
 /*main variables*/
 /*button variables */
 .container {
-  display: flex;
+  display: grid;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  flex-grow: 1;
+  grid-template-columns: 70% 25% 25%;
+  padding-left: 10px;
+  padding-top: 10px;
+  grid-gap: 20px 20px;
 }
 
-.netmatters {
-  flex-grow: 2;
+#netmatters {
+  width: 100%;
+  padding-left: 10px;
 }
 
-.phone {
-  flex-grow: 1;
+.fa-bars {
+  width: 100%;
+}
+
+.fa-phone {
+  width: 100%;
+}
+
+.form-control {
+  background-color: rgb(192, 188, 188);
+  width: 80%;
+  padding: 10px;
+  margin: 30px;
+}
+
+.search-bar {
+  padding-left: 10px;
+  width: 100%;
 }
 
 .nav-item {
@@ -51,13 +69,6 @@ h1 {
   flex-direction: column;
   justify-content: space-between;
   flex-grow: 1;
-}
-
-.input-group .form-control {
-  background-color: rgb(192, 188, 188);
-  width: 75%;
-  padding: 50px;
-  margin: 30px;
 }
 
 .image {
