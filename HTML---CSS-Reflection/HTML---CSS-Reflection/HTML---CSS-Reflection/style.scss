@@ -5,7 +5,7 @@
 
 }
 
-/*variables*/
+/*main variables*/
 $main-color: #333645;
 $main-buttons-radius: 10%;
 $main-buttons-display: block;
@@ -18,6 +18,15 @@ $mains-button-background-color: white;
 $main-font-family: Verdana, Geneva, Tahoma, sans-serif;
 $main-font-weight: lighter;
 $main-font-color: white;
+
+/*button variables */
+$page-buttons-border-radius: 8%;
+$page-buttons-background-color:#232530;
+$page-buttons-left-padding: 8%;
+$page-buttons-right-padding: 8%;
+$page-buttons-top-padding: 4%;
+$page-buttons-bottom-padding: 4%;
+$page-buttons-border-width: 0px;
 
 
 .container {
@@ -206,21 +215,27 @@ caption {
 
 
 
-.welcome h1 {
-  margin-left: 50px;
 
-}
 .welcome   {
   background-color:$main-color;
-  max-width: auto;
+  max-width: 100%;
   display: grid;
   color:$main-font-color;
-  padding-right: 20px;
+  padding-right: 5px;
     
  
 }
+
+.welcome h1 {
+  display: $main-buttons-display;
+  border-radius: $main-buttons-radius;
+  width: $main-buttons-width;
+  max-height: $main-buttons-max-height;
+  margin: $main-buttons-margin;
+
+}
 .clients h1 {
-  margin-left: 50px;
+  margin-left: 5px;
 
 }
 .clients h3 {
@@ -228,10 +243,34 @@ font-style: italic;
 
 }
 
-.clients .fa-solid {
-  color:yellow;
+.fa-star {
+  color:rgb(255, 238, 0);
   font-size: 50px;
   padding-right: 20px;
+}
+
+.btn-primary-welcome {
+  border-radius:$page-buttons-border-radius ;
+  background-color: $page-buttons-background-color;
+  padding-left: $page-buttons-left-padding;
+  padding-right: $page-buttons-right-padding;
+  padding-top: $page-buttons-top-padding ;
+  padding-bottom: $page-buttons-bottom-padding;
+  font-family: $main-font-family;
+  color: $main-font-color ;
+  border-width: $page-buttons-border-width; 
+}
+
+.btn-primary-client {
+  border-radius:$page-buttons-border-radius ;
+  background-color: $page-buttons-background-color;
+  padding-left: $page-buttons-left-padding;
+  padding-right: $page-buttons-right-padding;
+  padding-top: $page-buttons-top-padding ;
+  padding-bottom: $page-buttons-bottom-padding;
+  font-family: $main-font-family;
+  color: $main-font-color ;
+  border-width: $page-buttons-border-width; 
 }
 
 
