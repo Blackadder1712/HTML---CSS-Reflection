@@ -3,14 +3,15 @@
 }
 
 /*main variables*/
+/* colours used when hovering over main buttons*/
 /*button variables */
+/* card variables*/
 .container {
+  max-width: auto;
   display: grid;
-  flex-direction: row;
-  grid-template-columns: 70% 25% 25%;
-  padding-left: 10px;
-  padding-top: 10px;
-  grid-gap: 20px 20px;
+  padding: 20px 20px;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 30px;
 }
 
 #netmatters {
@@ -89,7 +90,11 @@ caption {
 .main-buttons {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: lighter;
+  max-width: auto;
   display: grid;
+  padding: 20px 20px;
+  grid-template-rows: auto auto auto auto auto auto auto;
+  grid-rows-gap: 30px;
 }
 
 .btn-primary {
@@ -190,12 +195,13 @@ caption {
   padding-right: 5px;
 }
 
-.welcome h1 {
+.info h1 {
   display: block;
   border-radius: 10%;
   width: 96%;
   max-height: 600px;
   margin: 2%;
+  margin-left: 30 px;
 }
 
 .clients h1 {
@@ -224,6 +230,11 @@ caption {
   border-width: 0px;
 }
 
+h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: gray;
+}
+
 .btn-primary-client {
   border-radius: 8%;
   background-color: #232530;
@@ -234,6 +245,36 @@ caption {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
   border-width: 0px;
+}
+
+.btn-primary-client2 {
+  border-radius: 8%;
+  background-color: rgb(2, 168, 2);
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  border-width: 0px;
+  margin-top: 20px;
+}
+
+.cards {
+  max-width: 100%;
+  display: grid;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 20px;
+  padding-right: 5px;
+}
+
+.card-title-1 {
+  color: #67809f;
+  font-size: medium;
+}
+
+.card-text-1 {
+  color: grey;
 }
 
 /*Media Queries*/

@@ -21,6 +21,10 @@ $main-font-family: Verdana, Geneva, Tahoma, sans-serif;
 $main-font-weight: lighter;
 $main-font-color: white;
 
+/* colours used when hovering over main buttons*/
+
+$hover-color-blue: #67809f;
+
 /*button variables */
 $page-buttons-border-radius: 8%;
 $page-buttons-background-color:#232530;
@@ -30,15 +34,15 @@ $page-buttons-top-padding: 4%;
 $page-buttons-bottom-padding: 4%;
 $page-buttons-border-width: 0px;
 
+/* card variables*/
+
 
 .container {
-  display:grid;
-  flex-direction: row;
-  grid-template-columns: 70% 25% 25%;
-  padding-left: 10px;
-  padding-top: 10px;
-  grid-gap:20px 20px;
-  
+  max-width: auto;
+  display: grid;
+  padding: 20px 20px;
+  grid-template-columns: auto auto auto ;
+  grid-column-gap: 30px;
   
 }
 
@@ -129,8 +133,12 @@ caption {
   
   font-family: $main-font-family;
   font-weight: $main-font-weight;
+  max-width: auto;
   display: grid;
- 
+  padding: 20px 20px;
+  grid-template-rows: auto auto auto auto auto auto auto ;
+  grid-rows-gap: 30px;
+  
 }
 
 .btn-primary {
@@ -143,7 +151,6 @@ caption {
   border-color: $main-buttons-border-color;
   background-color: $mains-button-background-color;
   border-width: $mains-button-border-width;
-  
   
  
 }
@@ -246,16 +253,20 @@ caption {
   display: grid;
   color:$main-font-color;
   padding-right: 5px;
+
+
+ 
     
  
 }
 
-.welcome h1 {
+.info h1 {
   display: $main-buttons-display;
   border-radius: $main-buttons-radius;
   width: $main-buttons-width;
   max-height: $main-buttons-max-height;
   margin: $main-buttons-margin;
+  margin-left: 30 px;
 
 }
 .clients h1 {
@@ -285,6 +296,10 @@ font-style: italic;
   border-width: $page-buttons-border-width; 
 }
 
+h4 {
+  font-family: $main-font-family;
+  color:gray;
+}
 .btn-primary-client {
   border-radius:$page-buttons-border-radius ;
   background-color: $page-buttons-background-color;
@@ -296,6 +311,52 @@ font-style: italic;
   color: $main-font-color ;
   border-width: $page-buttons-border-width; 
 }
+
+.btn-primary-client2 {
+  border-radius:$page-buttons-border-radius ;
+  background-color: rgb(2, 168, 2);
+  padding-left: $page-buttons-left-padding;
+  padding-right: $page-buttons-right-padding;
+  padding-top: $page-buttons-top-padding ;
+  padding-bottom: $page-buttons-bottom-padding;
+  font-family: $main-font-family;
+  color: $main-font-color ;
+  border-width: $page-buttons-border-width; 
+  margin-top: 20px;
+}
+
+
+
+
+.cards {
+
+ max-width: 100%;
+  display: grid;
+  font-family: $main-font-family;
+  margin: 20px;
+  padding-right: 5px;
+  
+  
+ 
+ 
+
+}
+
+
+.card-title-1  {
+
+  color: $hover-color-blue;
+  font-size: medium;
+  
+}
+ 
+.card-text-1 {
+ color: grey;
+
+
+}
+
+
 
 
   /*Media Queries*/
