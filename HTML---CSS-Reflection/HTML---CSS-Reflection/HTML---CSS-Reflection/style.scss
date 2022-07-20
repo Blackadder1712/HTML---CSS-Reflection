@@ -335,11 +335,18 @@ h4 {
   font-family: $main-font-family;
   margin: 20px;
   padding-right: 5px;
+  border: solid gray thin ;
+  border-radius: 2% ;
   
   
  
  
 
+}
+
+.card-img-1 {
+margin: 10px;
+width: 150%;
 }
 
 
@@ -347,15 +354,30 @@ h4 {
 
   color: $hover-color-blue;
   font-size: medium;
+  margin:10px;
   
 }
  
-.card-text-1 {
+.card-text {
  color: grey;
+ margin:10px;
 
 
 }
 
+.btn-primary-card1 {
+  border-radius:$page-buttons-border-radius ;
+  background-color: $hover-color-blue;
+  padding-left: $page-buttons-left-padding;
+  padding-right: $page-buttons-right-padding;
+  padding-top: $page-buttons-top-padding ;
+  padding-bottom: $page-buttons-bottom-padding;
+  font-family: $main-font-family;
+  color: $main-font-color ;
+  border-width: $page-buttons-border-width; 
+  margin: 20px;
+  
+}
 
 
 

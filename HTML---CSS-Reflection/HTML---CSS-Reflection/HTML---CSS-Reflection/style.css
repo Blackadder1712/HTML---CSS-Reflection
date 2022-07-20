@@ -266,15 +266,37 @@ h4 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 20px;
   padding-right: 5px;
+  border: solid gray thin;
+  border-radius: 2%;
+}
+
+.card-img-1 {
+  margin: 10px;
+  width: 150%;
 }
 
 .card-title-1 {
   color: #67809f;
   font-size: medium;
+  margin: 10px;
 }
 
-.card-text-1 {
+.card-text {
   color: grey;
+  margin: 10px;
+}
+
+.btn-primary-card1 {
+  border-radius: 8%;
+  background-color: #67809f;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  border-width: 0px;
+  margin: 20px;
 }
 
 /*Media Queries*/
