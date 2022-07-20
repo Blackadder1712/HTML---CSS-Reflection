@@ -24,6 +24,7 @@ $main-font-color: white;
 /* colours used when hovering over main buttons*/
 
 $hover-color-blue: #67809f;
+$hover-color-purple: rgb(179, 1, 179);
 
 /*button variables */
 $page-buttons-border-radius: 8%;
@@ -36,11 +37,44 @@ $page-buttons-border-width: 0px;
 
 /* card variables*/
 
+$card-max-width: 100%;
+$card-display: grid;
+$card-margin: 20px;
+$card-padding: 5px;
+$card-border: solid gray thin ;
+$card-border-radius: 2% ;
+$card-img-margin: 10px;
+$card-img-width: 150%;
+
+
+
+
+.nav-item {
+display: inline-block;
+padding: auto;
+width: auto;
+margin: 0 auto;
+}
+
+.nav-link {
+display: inline-block;
+font-family: Poppins,sans-serif;
+text-decoration: none;
+color:white;
+width: auto;
+margin: 0 auto;
+}
+   
+   
+   
+
 
 .container {
   max-width: auto;
   display: grid;
-  padding: 20px 20px;
+  padding-top:20px;
+  padding-left:20px;
+  padding-bottom: 10px;
   grid-template-columns: auto auto auto ;
   grid-column-gap: 30px;
   
@@ -73,24 +107,11 @@ $page-buttons-border-width: 0px;
 .search-bar {
   padding-left: 10px;
   width: 100%;
+  margin-top: 0%;
 }
 
 
-.nav-item {
-  display: inline-block;
-  padding: auto;
-  width: auto;
-  margin: 0 auto;
-}
 
-.nav-link {
-  display: inline-block;
-  font-family: Poppins,sans-serif;
-  text-decoration: none;
-  color: $main-font-color;
-  width: auto;
-  margin: 0 auto;
-}
 
 #main-photo {
   width: 100%;
@@ -330,13 +351,14 @@ h4 {
 
 .cards {
 
- max-width: 100%;
-  display: grid;
+ max-width: $card-max-width;
+  display:$card-display;
   font-family: $main-font-family;
-  margin: 20px;
-  padding-right: 5px;
-  border: solid gray thin ;
-  border-radius: 2% ;
+  margin: $card-margin;
+  padding-right: $card-padding;
+  border: $card-border;
+  border-radius: $card-border-radius ;
+  
   
   
  
@@ -344,9 +366,9 @@ h4 {
 
 }
 
-.card-img-1 {
-margin: 10px;
-width: 150%;
+.card-img {
+margin: $card-img-margin;
+width: $card-img-width;
 }
 
 
@@ -379,7 +401,110 @@ width: 150%;
   
 }
 
+.btn-primary-cardlogo {
+  border:none;
+  background-color: white;
+}
 
+.postedb {
+  display: inline-block;
+  float: left;
+  vertical-align: top;
+  padding-left:50px;
+}
+
+.posted-by-netmatters h6 {
+  color:gray;
+}
+
+.cards-2 {
+  max-width: $card-max-width;
+  display:$card-display;
+  font-family: $main-font-family;
+  margin: $card-margin;
+  padding-right: $card-padding;
+  border: $card-border;
+  border-radius: $card-border-radius ;
+  
+}
+
+.card-img-2 {
+  margin: $card-img-margin;
+  width: $card-img-width;
+}
+
+.card-title-2  {
+
+  color: rgb(179, 1, 179);
+  font-size: medium;
+  margin:10px;
+  font-family: $main-font-family;
+  
+}
+
+
+
+.btn-primary-card2 {
+  border-radius:$page-buttons-border-radius ;
+  background-color: $hover-color-purple;
+  padding-left: $page-buttons-left-padding;
+  padding-right: $page-buttons-right-padding;
+  padding-top: $page-buttons-top-padding ;
+  padding-bottom: $page-buttons-bottom-padding;
+  font-family: $main-font-family;
+  color: $main-font-color ;
+  border-width: $page-buttons-border-width; 
+  margin: 20px;
+  
+}
+
+.cards-3 {
+  max-width: $card-max-width;
+  display:$card-display;
+  font-family: $main-font-family;
+  margin: $card-margin;
+  padding-right: $card-padding;
+  border: $card-border;
+  border-radius: $card-border-radius ;
+  
+}
+
+.card-img-3 {
+  margin: $card-img-margin;
+  width: $card-img-width;
+}
+
+.card-title-3  {
+
+  color: rgb(179, 1, 179);
+  font-size: medium;
+  margin:10px;
+  font-family: $main-font-family;
+  
+}
+
+
+
+.btn-primary-card3 {
+  border-radius:$page-buttons-border-radius ;
+  background-color: $hover-color-purple;
+  padding-left: $page-buttons-left-padding;
+  padding-right: $page-buttons-right-padding;
+  padding-top: $page-buttons-top-padding ;
+  padding-bottom: $page-buttons-bottom-padding;
+  font-family: $main-font-family;
+  color: $main-font-color ;
+  border-width: $page-buttons-border-width; 
+  margin: 20px;
+  
+}
+
+.view-all 
+{
+  border: none;
+  background: transparent;
+  margin:auto;
+}
 
   /*Media Queries*/
 /*Media Queries*/

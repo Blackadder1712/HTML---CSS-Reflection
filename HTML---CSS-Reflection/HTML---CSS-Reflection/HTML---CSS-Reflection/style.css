@@ -6,10 +6,28 @@
 /* colours used when hovering over main buttons*/
 /*button variables */
 /* card variables*/
+.nav-item {
+  display: inline-block;
+  padding: auto;
+  width: auto;
+  margin: 0 auto;
+}
+
+.nav-link {
+  display: inline-block;
+  font-family: Poppins, sans-serif;
+  text-decoration: none;
+  color: white;
+  width: auto;
+  margin: 0 auto;
+}
+
 .container {
   max-width: auto;
   display: grid;
-  padding: 20px 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
   grid-template-columns: auto auto auto;
   grid-column-gap: 30px;
 }
@@ -37,22 +55,7 @@
 .search-bar {
   padding-left: 10px;
   width: 100%;
-}
-
-.nav-item {
-  display: inline-block;
-  padding: auto;
-  width: auto;
-  margin: 0 auto;
-}
-
-.nav-link {
-  display: inline-block;
-  font-family: Poppins, sans-serif;
-  text-decoration: none;
-  color: white;
-  width: auto;
-  margin: 0 auto;
+  margin-top: 0%;
 }
 
 #main-photo {
@@ -270,7 +273,7 @@ h4 {
   border-radius: 2%;
 }
 
-.card-img-1 {
+.card-img {
   margin: 10px;
   width: 150%;
 }
@@ -297,6 +300,98 @@ h4 {
   color: white;
   border-width: 0px;
   margin: 20px;
+}
+
+.btn-primary-cardlogo {
+  border: none;
+  background-color: white;
+}
+
+.postedb {
+  display: inline-block;
+  float: left;
+  vertical-align: top;
+  padding-left: 50px;
+}
+
+.posted-by-netmatters h6 {
+  color: gray;
+}
+
+.cards-2 {
+  max-width: 100%;
+  display: grid;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 20px;
+  padding-right: 5px;
+  border: solid gray thin;
+  border-radius: 2%;
+}
+
+.card-img-2 {
+  margin: 10px;
+  width: 150%;
+}
+
+.card-title-2 {
+  color: rgb(179, 1, 179);
+  font-size: medium;
+  margin: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn-primary-card2 {
+  border-radius: 8%;
+  background-color: rgb(179, 1, 179);
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  border-width: 0px;
+  margin: 20px;
+}
+
+.cards-3 {
+  max-width: 100%;
+  display: grid;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 20px;
+  padding-right: 5px;
+  border: solid gray thin;
+  border-radius: 2%;
+}
+
+.card-img-3 {
+  margin: 10px;
+  width: 150%;
+}
+
+.card-title-3 {
+  color: rgb(179, 1, 179);
+  font-size: medium;
+  margin: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn-primary-card3 {
+  border-radius: 8%;
+  background-color: rgb(179, 1, 179);
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  border-width: 0px;
+  margin: 20px;
+}
+
+.view-all {
+  border: none;
+  background: transparent;
+  margin: auto;
 }
 
 /*Media Queries*/
