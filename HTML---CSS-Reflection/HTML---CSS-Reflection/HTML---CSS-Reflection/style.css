@@ -29,7 +29,7 @@
   padding-left: 20px;
   padding-bottom: 10px;
   grid-template-columns: auto auto auto;
-  grid-column-gap: 30px;
+  grid-column-gap: 20px;
 }
 
 #netmatters {
@@ -49,16 +49,17 @@
   background-color: rgb(192, 188, 188);
   width: 80%;
   padding: 10px;
-  margin: 30px;
 }
 
 .search-bar {
   padding-left: 10px;
   width: 100%;
   margin-top: 0%;
+  margin-bottom: 10px;
 }
 
 #main-photo {
+  margin-top: 10px;
   width: 100%;
   height: 100%;
 }
@@ -460,19 +461,161 @@ h4 {
   margin: 20px;
 }
 
-.footer {
-  margin-top: 20px;
+footer {
+  background-color: #333645;
+  max-width: 100%;
   display: grid;
-  background-color: #232530;
+  grid-template-columns: auto auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0%;
+}
+
+.about {
+  color: white;
+  padding-right: 5px;
+  margin: 0%;
+}
+
+.about h3 {
+  padding-top: 30px;
+  margin: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-weight: lighter;
+  font-size: medium;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about h4 {
+  margin: 5px;
+  margin-left: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-weight: lighter;
+  font-size: small;
+}
+
+.services {
+  background-color: #333645;
+  max-width: 100%;
+  color: white;
+  padding-right: 5px;
+  margin: 0%;
+}
+
+.services h3 {
+  padding-top: 30px;
+  margin: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-weight: lighter;
+  font-size: medium;
+}
+
+.services h4 {
+  margin: 5px;
+  margin-left: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-weight: lighter;
+  font-size: small;
+}
+
+.cambridge {
+  color: white;
+  padding-right: 5px;
+  margin: 0%;
+}
+
+.cambridge h3 {
+  padding-top: 30px;
+  margin: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-weight: lighter;
+  font-size: medium;
+}
+
+.cambridge h4 {
+  margin: 5px;
+  margin-left: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-weight: lighter;
+  font-size: small;
+}
+
+.wymondham {
+  color: white;
+  padding-right: 5px;
+  margin: 0%;
+}
+
+.wymondham h3 {
+  padding-top: 30px;
+  margin: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-weight: lighter;
+  font-size: medium;
+}
+
+.wymondham h4 {
+  margin: 5px;
+  margin-left: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-weight: lighter;
+  font-size: small;
+}
+
+.yarmouth {
+  color: white;
+  padding-right: 5px;
+  margin: 0%;
+}
+
+.yarmouth h3 {
+  padding-top: 30px;
+  margin: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-weight: lighter;
+  font-size: medium;
+}
+
+.yarmouth h4 {
+  margin: 5px;
+  margin-left: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-weight: lighter;
+  font-size: small;
+}
+
+.copyright {
+  background-color: #333645;
+  margin: 0%;
+}
+
+.copyright h4 {
+  padding: 30px;
+  color: white;
+  margin: 0%;
+  font-size: small;
+  display: inline-block;
+  font-weight: lighter;
 }
 
 /*Media Queries*/
 @media only screen and (min-width: 769px) {
-  .fa-bars {
+  .fa-phone-volume {
     display: none;
     width: 100%;
   }
-  .fa-phone {
+  .fa-bars {
     display: none;
     width: 100%;
   }

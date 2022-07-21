@@ -70,13 +70,14 @@ margin: 0 auto;
 
 
 .container {
+
   max-width: auto;
   display: grid;
   padding-top:20px;
   padding-left:20px;
   padding-bottom: 10px;
   grid-template-columns: auto auto auto ;
-  grid-column-gap: 30px;
+  grid-column-gap: 20px;
   
 }
 
@@ -101,19 +102,20 @@ margin: 0 auto;
   background-color: rgb(192, 188, 188);
   width: 80%;
   padding: 10px ;
-  margin: 30px;
 }
 
 .search-bar {
   padding-left: 10px;
   width: 100%;
   margin-top: 0%;
+  margin-bottom:10px;
 }
 
 
 
 
 #main-photo {
+  margin-top:10px;
   width: 100%;
   height: 100%;
 
@@ -591,19 +593,207 @@ border-width: $page-buttons-border-width;
 margin: 20px;
 }
 
-.footer  {
-margin-top: 20px;
-display:grid;
- background-color: #232530;
+footer {
+  background-color:$main-color;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns:auto auto ;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin:0%;
+ 
+  
+
+}
+.about  {
+ 
+  color:$main-font-color;
+  padding-right: 5px;
+  margin:0%;
+  
+
 
 }
 
+.about h3 {
+padding-top: 30px;
+margin: 20px;
+font-family: $main-font-family;
+color: $main-font-color;
+font-weight: lighter;
+font-size: medium;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+
+.about h4 {
+
+  margin: 5px;
+  margin-left:20px;
+  font-family: $main-font-family;
+  color: $main-font-color;
+  font-weight: lighter;
+  font-size: small;
+
+  
+  }
+
+  .services
+  {
+  background-color:$main-color;
+  max-width: 100%;
+
+  color:$main-font-color;
+  padding-right: 5px;
+  margin:0%;
+  
+  }
+
+  .services h3 {
+    padding-top: 30px;
+    margin: 20px;
+    font-family: $main-font-family;
+    color: $main-font-color;
+    font-weight: lighter;
+    font-size: medium;
+    
+    }
+
+    .services h4 {
+
+      margin: 5px;
+      margin-left:20px;
+      font-family: $main-font-family;
+      color: $main-font-color;
+      font-weight: lighter;
+      font-size: small;
+     
+      
+      }
+    
 
 
+    .cambridge  {
+      
+      color:$main-font-color;
+      padding-right: 5px;
+      margin:0%;
+      
+    
+    
+    }
+    
+    .cambridge h3 {
+    padding-top: 30px;
+    margin: 20px;
+    font-family: $main-font-family;
+    color: $main-font-color;
+    font-weight: lighter;
+    font-size: medium;
+    
+    }
+    
+    .cambridge h4 {
+    
+      margin: 5px;
+      margin-left:20px;
+      font-family: $main-font-family;
+      color: $main-font-color;
+      font-weight: lighter;
+      font-size: small;
+     
+      
+      }
+    
+      .wymondham  {
+    
+        color:$main-font-color;
+        padding-right: 5px;
+        margin:0%;
+        
+      
+      
+      }
+      
+      .wymondham h3 {
+      padding-top: 30px;
+      margin: 20px;
+      font-family: $main-font-family;
+      color: $main-font-color;
+      font-weight: lighter;
+      font-size: medium;
+      
+      }
+      
+      .wymondham h4 {
+      
+        margin: 5px;
+        margin-left:20px;
+        font-family: $main-font-family;
+        color: $main-font-color;
+        font-weight: lighter;
+        font-size: small;
+      
+        
+        }
+      
+        .yarmouth  {
+          
+          color:$main-font-color;
+          padding-right: 5px;
+          margin:0%;
+         
+        
+        
+        }
+        
+        .yarmouth h3 {
+        padding-top: 30px;
+        margin: 20px;
+        font-family: $main-font-family;
+        color: $main-font-color;
+        font-weight: lighter;
+        font-size: medium;
+        
+        }
+        
+        .yarmouth h4 {
+        
+          margin: 5px;
+          margin-left:20px;
+          font-family: $main-font-family;
+          color: $main-font-color;
+          font-weight: lighter;
+          font-size: small;
+        
+          
+          }
+        
+        .copyright
+        {
+          background-color: $main-color;
+          margin: 0%;
+        }
+
+        .copyright h4 
+        {
+          padding: 30px;
+          color:$main-font-color;
+          margin: 0%;
+          font-size: small;
+          display: inline-block;
+          font-weight: lighter;
+          
+        }
 /*Media Queries*/
 
 @media only screen and(min-width: 769px) {
-
+  .fa-phone-volume {
+    display: none;
+    width: 100%;
+   
+  }
 
 
  .fa-bars {
@@ -611,11 +801,7 @@ display:grid;
   width: 100%;
 }
 
-.fa-phone {
-  display: none;
-  width: 100%;
- 
-}
+
 
 .form-control {
   display: none;
@@ -688,6 +874,8 @@ caption {
   padding: 20px ;
   margin: 20px;
 }
+
+
 
 
   /*# sourceMappingURL=style.css.map */
