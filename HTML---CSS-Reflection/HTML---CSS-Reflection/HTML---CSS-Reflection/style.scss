@@ -172,6 +172,7 @@ caption {
   border-color: $main-buttons-border-color;
   background-color: $mains-button-background-color;
   border-width: $mains-button-border-width;
+  cursor: pointer;
   
  
 }
@@ -186,6 +187,7 @@ caption {
   border-color: $main-buttons-border-color;
   background-color: $mains-button-background-color;
   border-width: $mains-button-border-width;
+  cursor: pointer;
 }
   .btn-primary-3 {
   
@@ -197,6 +199,7 @@ caption {
   border-color: $main-buttons-border-color;
   background-color: $mains-button-background-color;
   border-width: $mains-button-border-width;
+  cursor: pointer;
   }
 
   .btn-primary-4 {
@@ -209,6 +212,7 @@ caption {
   border-color: $main-buttons-border-color;
   background-color: $mains-button-background-color;
   border-width: $mains-button-border-width;
+  cursor: pointer;
   }
 
   .btn-primary-5 {
@@ -221,6 +225,7 @@ caption {
   border-color: $main-buttons-border-color;
   background-color: $mains-button-background-color;
   border-width: $mains-button-border-width;
+  cursor: pointer;
   }
 
   .btn-primary-6 {
@@ -233,6 +238,7 @@ caption {
   border-color: $main-buttons-border-color;
   background-color: $mains-button-background-color;
   border-width: $mains-button-border-width;
+  cursor: pointer;
   }
 
   .btn-primary-7 {
@@ -245,6 +251,7 @@ caption {
   border-color: $main-buttons-border-color;
   background-color: $mains-button-background-color;
   border-width: $mains-button-border-width;
+  cursor: pointer;
   }
 
   .small-logos {
@@ -254,6 +261,8 @@ caption {
     grid-template-columns: auto auto auto auto auto auto auto;
     grid-column-gap: 30px;
     margin: 0;
+    cursor: pointer;
+    
   
   
   }
@@ -499,14 +508,91 @@ width: $card-img-width;
   
 }
 
-.view-all 
-{
+
+.view-all {
   border: none;
   background: transparent;
-  margin:auto;
+  padding:15px;
+ margin-left: 35%;
+  font-family: $main-font-family;
+  font-weight: bold;
+  font-size: x-large;
+ 
+ 
 }
 
-  /*Media Queries*/
+
+
+.email-form
+{
+  display: grid;
+  font-family: $main-font-family; 
+  background-color: rgb(206, 206, 206);
+  grid-template-rows: auto;
+  grid-row-gap: 20px;
+  font-weight: lighter;
+  
+  
+  
+
+}
+
+.email-form h1 
+{
+  font-weight: lighter;
+  text-align: center;
+}
+
+.form-label 
+{
+  margin:40px;
+  border-top: 20px;
+  
+  
+}
+
+.fa-asterisk 
+{
+  color: red;
+  font-size: 10px;
+}
+
+
+.form-check-input
+{
+ 
+  color: $main-color;
+  background: transparent;
+  background-color: $main-color ;
+  width: 30px;
+  height: 30px;
+  margin: 20px;
+  text-align: center;
+  font-family: $main-font-family;
+  float: left;
+}
+
+.form-check-label 
+{
+  color:#333645;
+  font-weight: lighter;
+}
+.btn-primary-subscribe 
+{
+background-color: #333645;
+border-radius:$page-buttons-border-radius ;
+padding-left: $page-buttons-left-padding;
+padding-right: $page-buttons-right-padding;
+padding-top: $page-buttons-top-padding ;
+padding-bottom: $page-buttons-bottom-padding;
+font-family: $main-font-family;
+color: $main-font-color ;
+border-width: $page-buttons-border-width; 
+margin: 20px;
+}
+
+
+
 /*Media Queries*/
 
 @media only screen and(min-width: 769px) {

@@ -109,6 +109,7 @@ caption {
   border-color: rgb(180, 177, 177);
   background-color: white;
   border-width: 1px;
+  cursor: pointer;
 }
 
 .btn-primary-2 {
@@ -120,6 +121,7 @@ caption {
   border-color: rgb(180, 177, 177);
   background-color: white;
   border-width: 1px;
+  cursor: pointer;
 }
 
 .btn-primary-3 {
@@ -131,6 +133,7 @@ caption {
   border-color: rgb(180, 177, 177);
   background-color: white;
   border-width: 1px;
+  cursor: pointer;
 }
 
 .btn-primary-4 {
@@ -142,6 +145,7 @@ caption {
   border-color: rgb(180, 177, 177);
   background-color: white;
   border-width: 1px;
+  cursor: pointer;
 }
 
 .btn-primary-5 {
@@ -153,6 +157,7 @@ caption {
   border-color: rgb(180, 177, 177);
   background-color: white;
   border-width: 1px;
+  cursor: pointer;
 }
 
 .btn-primary-6 {
@@ -164,6 +169,7 @@ caption {
   border-color: rgb(180, 177, 177);
   background-color: white;
   border-width: 1px;
+  cursor: pointer;
 }
 
 .btn-primary-7 {
@@ -175,6 +181,7 @@ caption {
   border-color: rgb(180, 177, 177);
   background-color: white;
   border-width: 1px;
+  cursor: pointer;
 }
 
 .small-logos {
@@ -184,6 +191,7 @@ caption {
   grid-template-columns: auto auto auto auto auto auto auto;
   grid-column-gap: 30px;
   margin: 0;
+  cursor: pointer;
 }
 
 .btn-primary .text {
@@ -391,10 +399,67 @@ h4 {
 .view-all {
   border: none;
   background: transparent;
-  margin: auto;
+  padding: 15px;
+  margin-left: 35%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: x-large;
 }
 
-/*Media Queries*/
+.email-form {
+  display: grid;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(206, 206, 206);
+  grid-template-rows: auto;
+  grid-row-gap: 20px;
+  font-weight: lighter;
+}
+
+.email-form h1 {
+  font-weight: lighter;
+  text-align: center;
+}
+
+.form-label {
+  margin: 40px;
+  border-top: 20px;
+}
+
+.fa-asterisk {
+  color: red;
+  font-size: 10px;
+}
+
+.form-check-input {
+  color: #333645;
+  background: transparent;
+  background-color: #333645;
+  width: 30px;
+  height: 30px;
+  margin: 20px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  float: left;
+}
+
+.form-check-label {
+  color: #333645;
+  font-weight: lighter;
+}
+
+.btn-primary-subscribe {
+  background-color: #333645;
+  border-radius: 8%;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  border-width: 0px;
+  margin: 20px;
+}
+
 /*Media Queries*/
 @media only screen and (min-width: 769px) {
   .nav {
