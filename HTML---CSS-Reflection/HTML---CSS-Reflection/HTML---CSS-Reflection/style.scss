@@ -50,14 +50,14 @@ $card-img-width: 150%;
 
 
 .nav-item {
-display: inline-block;
+display: none;
 padding: auto;
 width: auto;
 margin: 0 auto;
 }
 
 .nav-link {
-display: inline-block;
+display: none;
 font-family: Poppins,sans-serif;
 text-decoration: none;
 color:white;
@@ -591,16 +591,46 @@ border-width: $page-buttons-border-width;
 margin: 20px;
 }
 
+.footer  {
+margin-top: 20px;
+display:grid;
+ background-color: #232530;
+
+}
+
 
 
 /*Media Queries*/
 
 @media only screen and(min-width: 769px) {
 
- #netmatters {
-    
- }
 
+
+ .fa-bars {
+  display: none;
+  width: 100%;
+}
+
+.fa-phone {
+  display: none;
+  width: 100%;
+ 
+}
+
+.form-control {
+  display: none;
+  background-color: rgb(192, 188, 188);
+  width: 80%;
+  padding: 10px ;
+  margin: 30px;
+}
+
+.search-bar {
+  display: none;
+  padding-left: 10px;
+  width: 100%;
+  margin-top: 0%;
+}
 
 
   .nav {
@@ -660,5 +690,4 @@ caption {
 }
 
 
-  
   /*# sourceMappingURL=style.css.map */
