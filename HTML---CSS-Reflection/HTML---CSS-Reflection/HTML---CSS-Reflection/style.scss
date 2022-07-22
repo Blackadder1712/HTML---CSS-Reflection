@@ -25,6 +25,10 @@ $main-font-color: white;
 
 $hover-color-blue: #67809f;
 $hover-color-purple: rgb(179, 1, 179);
+$hover-color-bright-blue: #4389e4;
+$hover-color-bright-green: #31f081;
+$hover-color-red:red;
+$hover-color-pink: #f13261;
 
 /*button variables */
 $page-buttons-border-radius: 8%;
@@ -99,8 +103,8 @@ margin: 0 auto;
 }
 
 .form-control {
-  background-color: rgb(192, 188, 188);
-  width: 80%;
+  background-color: rgb(223, 217, 217);
+  width: 100%;
   padding: 10px ;
 }
 
@@ -146,8 +150,9 @@ caption {
   left: 10px; 
   width: 100%; 
   font-family:$main-font-family;
-  font-size: 80px;
+  font-size: 40px;
   color: $main-font-color;
+  font-weight: bold;
  
 }
 
@@ -155,15 +160,17 @@ caption {
  {
   
   font-family: $main-font-family;
-  font-weight: $main-font-weight;
+  font-weight: 1;
   max-width: auto;
   display: grid;
   padding: 20px 20px;
   grid-template-rows: auto auto auto auto auto auto auto ;
   grid-rows-gap: 30px;
+
+  
   
 }
-
+ 
 .btn-primary {
   
   display: $main-buttons-display;
@@ -174,12 +181,50 @@ caption {
   border-color: $main-buttons-border-color;
   background-color: $mains-button-background-color;
   border-width: $mains-button-border-width;
+  text-decoration: none;
+  padding: 50px;
+  font-weight:1;
   cursor: pointer;
-  
- 
 }
 
-.btn-primary-2 {
+.btn-primary:hover {
+  background-color: $hover-color-blue
+}
+
+.btn-primary text {
+  padding:10px;
+  font-weight: 1;
+  text-decoration: none;
+  background-color: $hover-color-blue;
+  border-radius: $main-buttons-radius;
+  font-family: $main-font-family;
+  cursor: pointer;
+  color: white;
+  
+}
+
+.btn-primary text:hover 
+{
+  background-color: white;
+  color:$hover-color-blue
+}
+
+.btn-primary h2 
+{
+  font-weight: 1;
+  
+}
+
+.btn-primary h3
+{
+  font-weight: 1;
+}
+
+
+
+
+
+.btn-primary-2{
   
   display: $main-buttons-display;
   border-radius: $main-buttons-radius;
@@ -189,74 +234,313 @@ caption {
   border-color: $main-buttons-border-color;
   background-color: $mains-button-background-color;
   border-width: $mains-button-border-width;
+  text-decoration: none;
+  padding: 50px;
+  font-weight: 1;
   cursor: pointer;
+  
+  
+ 
 }
+
+.btn-primary-2:hover {
+  background-color: $hover-color-bright-blue;
+}
+
+.btn-primary-2 text:hover{
+  background-color: white;
+  color:$hover-color-bright-blue
+}
+  .btn-primary-2 text {
+    padding:10px;
+    font-weight: 1;
+    text-decoration: none;
+    background-color: $hover-color-bright-blue;
+    border-radius: $main-buttons-radius;
+    font-family: $main-font-family;
+    color: white;
+    
+  }
+  
+  .btn-primary-2 h2 
+  {
+    font-weight: 1;
+  }
+  
+  .btn-primary-2 h3
+  {
+    font-weight: 1;
+  }
+ 
+
   .btn-primary-3 {
   
     display: $main-buttons-display;
-  border-radius: $main-buttons-radius;
-  width: $main-buttons-width;
-  max-height: $main-buttons-max-height;
-  margin: $main-buttons-margin;
-  border-color: $main-buttons-border-color;
-  background-color: $mains-button-background-color;
-  border-width: $mains-button-border-width;
-  cursor: pointer;
+    border-radius: $main-buttons-radius;
+    width: $main-buttons-width;
+    max-height: $main-buttons-max-height;
+    margin: $main-buttons-margin;
+    border-color: $main-buttons-border-color;
+    background-color: $mains-button-background-color;
+    border-width: $mains-button-border-width;
+    text-decoration: none;
+    padding: 50px;
+    font-weight: 1;
+    cursor: pointer;
+  }
+    
+    .btn-primary-3:hover 
+    {
+      background-color: $hover-color-bright-green;
+     
+    }
+   
+  
+
+  .btn-primary-3 text {
+    margin-top: 10px;
+    padding:10px;
+    font-weight: 1;
+    text-decoration: none;
+    background-color: $hover-color-bright-green;
+    border-radius: $main-buttons-radius;
+    font-family: $main-font-family;
+    color:white;
+    
   }
 
-  .btn-primary-4 {
+  .btn-primary-3 text:hover 
+  {
+    background-color: white;
+    color:$hover-color-bright-green;
+  }
+  
+  .btn-primary-3 h2 
+  {
+    font-weight: 1;
+  }
+  
+  .btn-primary-3 h3
+  {
+    font-weight: 1;
+  }
+  
+  
+
+  .btn-primary-4{
   
     display: $main-buttons-display;
-  border-radius: $main-buttons-radius;
-  width: $main-buttons-width;
-  max-height: $main-buttons-max-height;
-  margin: $main-buttons-margin;
-  border-color: $main-buttons-border-color;
-  background-color: $mains-button-background-color;
-  border-width: $mains-button-border-width;
-  cursor: pointer;
+    border-radius: $main-buttons-radius;
+    width: $main-buttons-width;
+    max-height: $main-buttons-max-height;
+    margin: $main-buttons-margin;
+    border-color: $main-buttons-border-color;
+    background-color: $mains-button-background-color;
+    border-width: $mains-button-border-width;
+    text-decoration: none;
+    padding: 50px;
+    font-weight: 1;
+    cursor: pointer;
+    
+   
   }
+
+  .btn-primary-4:hover 
+  {
+    background-color: $hover-color-red;
+  }
+
+  .btn-primary-4 text {
+    padding:10px;
+    font-weight: 1;
+    text-decoration: none;
+    background-color: $hover-color-red;
+    border-radius: $main-buttons-radius;
+    font-family: $main-font-family;
+    color:white;
+    
+  }
+
+  .btn-primary-4 text:hover 
+  {
+    background-color: white;
+    color:$hover-color-red;
+  }
+  
+  .btn-primary-4 h2 
+  {
+    font-weight: 1;
+  }
+  
+  .btn-primary-4 h3
+  {
+    font-weight: 1;
+  }
+  
+  
 
   .btn-primary-5 {
   
     display: $main-buttons-display;
-  border-radius: $main-buttons-radius;
-  width: $main-buttons-width;
-  max-height: $main-buttons-max-height;
-  margin: $main-buttons-margin;
-  border-color: $main-buttons-border-color;
-  background-color: $mains-button-background-color;
-  border-width: $mains-button-border-width;
-  cursor: pointer;
+    border-radius: $main-buttons-radius;
+    width: $main-buttons-width;
+    max-height: $main-buttons-max-height;
+    margin: $main-buttons-margin;
+    border-color: $main-buttons-border-color;
+    background-color: $mains-button-background-color;
+    border-width: $mains-button-border-width;
+    text-decoration: none;
+    padding: 50px;
+    font-weight: 1;
+    cursor: pointer;
+    
+    
+   
   }
 
-  .btn-primary-6 {
+  .btn-primary-5:hover 
+  {
+    background-color: $hover-color-purple;
+  }
+
+  .btn-primary-5 text:hover 
+  {
+    background-color: white;
+    color:$hover-color-purple;
+  }
+
+  .btn-primary-5 text {
+    padding:10px;
+    font-weight: 1;
+    text-decoration: none;
+    background-color: $hover-color-purple;
+    border-radius: $main-buttons-radius;
+    font-family: $main-font-family;
+    color:white;
+    
+    
+  }
+  
+  .btn-primary-5 h2 
+  {
+    font-weight: 1;
+    
+  }
+  
+  .btn-primary-5 h3
+  {
+    font-weight: 1;
+    margin-bottom: 5px;
+  }
+  
+  
+
+  .btn-primary-6{
   
     display: $main-buttons-display;
-  border-radius: $main-buttons-radius;
-  width: $main-buttons-width;
-  max-height: $main-buttons-max-height;
-  margin: $main-buttons-margin;
-  border-color: $main-buttons-border-color;
-  background-color: $mains-button-background-color;
-  border-width: $mains-button-border-width;
-  cursor: pointer;
+    border-radius: $main-buttons-radius;
+    width: $main-buttons-width;
+    max-height: $main-buttons-max-height;
+    margin: $main-buttons-margin;
+    border-color: $main-buttons-border-color;
+    background-color: $mains-button-background-color;
+    border-width: $mains-button-border-width;
+    text-decoration: none;
+    padding: 50px;
+    font-weight: 1;
+    cursor: pointer;
+    
+   
   }
 
-  .btn-primary-7 {
+  .btn-primary-6:hover 
+  {
+    background-color: $hover-color-pink;
+  }
+
+
+  .btn-primary-6 text {
+    padding:10px;
+    font-weight: 1;
+    text-decoration: none;
+    background-color: $hover-color-pink;
+    border-radius: $main-buttons-radius;
+    font-family: $main-font-family;
+    color: white;
+    
+  }
+  
+  .btn-primary-6 text:hover
+   {
+     background-color: white;
+     color:$hover-color-pink;
+
+  }
+  .btn-primary-6 h2 
+  {
+    font-weight: 1;
+  }
+  
+  .btn-primary-6 h3
+  {
+    font-weight: 1;
+  }
+  
+  
+
+  .btn-primary-7{
   
     display: $main-buttons-display;
-  border-radius: $main-buttons-radius;
-  width: $main-buttons-width;
-  max-height: $main-buttons-max-height;
-  margin: $main-buttons-margin;
-  border-color: $main-buttons-border-color;
-  background-color: $mains-button-background-color;
-  border-width: $mains-button-border-width;
-  cursor: pointer;
+    border-radius: $main-buttons-radius;
+    width: $main-buttons-width;
+    max-height: $main-buttons-max-height;
+    margin: $main-buttons-margin;
+    border-color: $main-buttons-border-color;
+    background-color: $mains-button-background-color;
+    border-width: $mains-button-border-width;
+    text-decoration: none;
+    padding: 50px;
+    font-weight: 1;
+    cursor: pointer;
   }
 
+  .btn-primary-7:hover 
+  {
+    background-color: $hover-color-red;
+
+  }
+
+  .btn-primary-7 text {
+    padding:10px;
+    font-weight: 1;
+    text-decoration: none;
+    background-color: $hover-color-red;
+    border-radius: $main-buttons-radius;
+    font-family: $main-font-family;
+    color: white;
+    
+  }
+
+  .btn-primary-7 text:hover
+  {
+    background-color: white;
+    color: $hover-color-red;
+  }
+  
+  .btn-primary-7 h2 
+  {
+    font-weight: 1;
+  }
+  
+  .btn-primary-7 h3
+  {
+    font-weight: 1;
+  }
+  
+  
+    
   .small-logos {
+  
     max-width: auto;
     display: grid;
     padding: 20px 20px;
@@ -264,18 +548,63 @@ caption {
     grid-column-gap: 30px;
     margin: 0;
     cursor: pointer;
-    
-  
-  
   }
+
+    .logo-item-1 {
+    -webkit-filter: grayscale(100%); 
+    }
+
+   .logo-item-1:hover
+    {
+    -webkit-filter: none ;
+   }
   
+   .logo-item-2 {
+    -webkit-filter: grayscale(100%); 
+    }
+
+   .logo-item-2:hover
+    {
+    -webkit-filter: none ;
+   }
+  
+   .logo-item-3 {
+    -webkit-filter: grayscale(100%); 
+    }
+
+   .logo-item-3:hover
+    {
+    -webkit-filter: none ;
+   }
+  
+   .logo-item-4 {
+    -webkit-filter: grayscale(100%); 
+    }
+
+   .logo-item-4:hover
+    {
+    -webkit-filter: none ;
+   }
+  
+   .logo-item-5 {
+    -webkit-filter: grayscale(100%); 
+    }
+
+   .logo-item-5:hover
+    {
+    -webkit-filter: none ;
+   }
+
+   .logo-item-6 {
+    -webkit-filter: grayscale(100%); 
+    }
+
+   .logo-item-6:hover
+    {
+    -webkit-filter: none ;
+   }
   
  
-
- .btn-primary .text {
-  font-family: $main-font-family;
- }
-
 
 
 
@@ -285,6 +614,7 @@ caption {
   display: grid;
   color:$main-font-color;
   padding-right: 5px;
+  text-align: left;
 
 
  
@@ -299,14 +629,17 @@ caption {
   max-height: $main-buttons-max-height;
   margin: $main-buttons-margin;
   margin-left: 30 px;
+  cursor: pointer;
 
 }
 .clients h1 {
   margin-left: 5px;
+  text-align:left ;
 
 }
 .clients h3 {
 font-style: italic;
+text-align: left;
 
 }
 
@@ -326,6 +659,7 @@ font-style: italic;
   font-family: $main-font-family;
   color: $main-font-color ;
   border-width: $page-buttons-border-width; 
+  cursor: pointer;
 }
 
 h4 {
@@ -342,6 +676,7 @@ h4 {
   font-family: $main-font-family;
   color: $main-font-color ;
   border-width: $page-buttons-border-width; 
+  cursor:pointer;
 }
 
 .btn-primary-client2 {
@@ -355,21 +690,28 @@ h4 {
   color: $main-font-color ;
   border-width: $page-buttons-border-width; 
   margin-top: 20px;
+  cursor: pointer;
 }
 
-
+.card-buttons
+{text-decoration: none;
+width: 200%
+}
 
 
 .cards {
 
- max-width: $card-max-width;
-  display:$card-display;
+  max-width: auto;
+  display:grid;
   font-family: $main-font-family;
   margin: $card-margin;
   padding-right: $card-padding;
   border: $card-border;
   border-radius: $card-border-radius ;
-  
+  grid-template-rows: auto auto auto ;
+  text-decoration: none;
+
+
   
   
  
@@ -378,8 +720,9 @@ h4 {
 }
 
 .card-img {
-margin: $card-img-margin;
-width: $card-img-width;
+  max-width:auto;
+  display: grid;
+  padding: 10px;
 }
 
 
@@ -388,14 +731,21 @@ width: $card-img-width;
   color: $hover-color-blue;
   font-size: medium;
   margin:10px;
+  text-decoration:none;
   
 }
  
 .card-text {
  color: grey;
  margin:10px;
+ text-decoration: none;
 
 
+}
+
+hr {
+  display:block;
+  width: auto;
 }
 
 .btn-primary-card1 {
