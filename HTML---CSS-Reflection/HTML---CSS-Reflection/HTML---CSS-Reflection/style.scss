@@ -5,10 +5,13 @@
 
 }
 
+
+
 /*partials*/
-@import 'partials/variables';
-@import 'partials/base-style';
-@import 'partials/media-queries';
+@import 'scss/partials/base-style';
+@import 'scss/partials/media-queries';
+@import 'scss/partials/variables';
+
 
 body 
 {margin: 20px}

@@ -2,12 +2,12 @@
 
 @media screen and (min-width: 769px) {
   
-
-
-
-.fa-phone-volume {
+  .fa-phone-volume {
     display: none;
-}
+    width: 100%;
+  }
+
+
    
 .nav {
     background-color:$main-color;
@@ -60,15 +60,6 @@ caption {
 }
 
 
- .container { 
 
-  max-width: auto;
-  display: inline-block;
-  padding-top:20px;
-  padding-left:20px;
-  padding-bottom: 10px;
-  grid-template-columns: 30px auto auto ;
-  grid-column-gap: 20px;
-}
 }
 

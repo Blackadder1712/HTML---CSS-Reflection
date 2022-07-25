@@ -899,14 +899,8 @@ footer {
 
 /*Media Queries*/
 @media only screen and (min-width: 769px) {
-  .fa-phone-volume {
-    display: none;
-    width: 100%;
-  }
-  .fa-bars {
-    display: none;
-    width: 100%;
-  }
+
+  
   .form-control {
     display: none;
     background-color: rgb(192, 188, 188);
