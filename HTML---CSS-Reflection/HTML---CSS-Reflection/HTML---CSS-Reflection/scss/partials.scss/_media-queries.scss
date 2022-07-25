@@ -1,41 +1,15 @@
 /*Media Queries*/
 
-@media only screen and(min-width: 769px) {
-  .fa-phone-volume {
+@media screen and (min-width: 769px) {
+  
+
+
+
+.fa-phone-volume {
     display: none;
-    width: 100%;
+}
    
-  }
-
-
- .fa-bars {
-  display: none;
-  width: 100%;
-}
-
-.container 
-    {
-        }
-
-
-
-.form-control {
-  display: none;
-  background-color: rgb(192, 188, 188);
-  width: 80%;
-  padding: 10px ;
-  margin: 30px;
-}
-
-.search-bar {
-  display: none;
-  padding-left: 10px;
-  width: 100%;
-  margin-top: 0%;
-}
-
-
-  .nav {
+.nav {
     background-color:$main-color;
     max-width: auto;
     display: grid;
@@ -72,7 +46,7 @@ caption {
  
 }
 
-}
+
 .small-logos {
   max-width: auto;
   display: column;
@@ -84,21 +58,17 @@ caption {
 
 
 }
-.input-group .form-control {
-  background-color: rgb(192, 188, 188);
-  width: 75%;
-  padding: 20px ;
-  margin: 20px;
-}
+
 
  .container { 
 
   max-width: auto;
-  display: inline-block
+  display: inline-block;
   padding-top:20px;
   padding-left:20px;
   padding-bottom: 10px;
   grid-template-columns: 30px auto auto ;
   grid-column-gap: 20px;
+}
 }
 
